@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.logo span 
+{
+    color: rgba(52, 121, 54, 0.8);
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+}
+
+.notificationButton {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+}
+
+.notificationButton i {
+    color: #495057;
+}
+
+.notificationButton:hover i {
+    color: #007bff;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #dee2e6;
+    cursor: pointer;
+}
+
+.bell {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.bell img 
+{
+    height: 30px;
+}

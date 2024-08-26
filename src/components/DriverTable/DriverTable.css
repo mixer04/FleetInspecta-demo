@@ -1,0 +1,155 @@
+/* DriverTable.css */
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  /* redacted */
+}
+
+.table-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  overflow: hidden;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: rgb(235, 235, 235);
+}
+
+tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+td button, .new-driver-form form button {
+  padding: 5px;
+  background-color: #212631;
+  color: white;
+  border: none;
+  border-radius: 0.175rem;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+td button:hover {
+  background-color: rgba(52, 121, 54, 0.8);
+  transition: background-color 0.2s ease;
+}
+
+td button:not(:hover) {
+  transition: background-color 0.2s ease;
+}
+
+.dummy-button {
+  padding: 10px;
+  width: 100px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  cursor: default;
+}
+
+.new-driver-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding: 20px;
+  gap: 15px;
+}
+
+.new-driver-form form input {
+  padding: 10px;
+  border: none;
+  border-radius: 0.350rem;
+  font-size: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.new-driver-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-controls 
+{
+  display: flex;
+  align-items: center;
+}
+
+.new-driver-form form button {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 0.350rem;
+}
+
+.new-driver-form h3, .table-controls h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.buttons-container {
+  display: flex;
+  grid-column: span 2;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+}
+
+.go-back {
+  width: auto;
+  margin-right: 20px;
+}
+
+.go-back img {
+  width: 28px;
+  aspect-ratio: 1;
+}
+
+.submit-button:hover {
+  background-color: green;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:not(:hover) {
+  transition: background-color 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: red;
+  transition: background-color 0.2s ease;
+}
+
+.sort-options {
+  display: flex;
+  gap: 10px;
+}
+
+select
+{
+  appearance: none;
+  cursor: pointer;
+}

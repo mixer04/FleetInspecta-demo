@@ -1,0 +1,55 @@
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    min-width: 200px;
+    height: 100vh;
+    color: white;
+}
+
+.logo 
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 80px;
+    border-bottom: 1px solid rgb(64, 64, 64);
+}
+
+.logo-text
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: #F9F7F7;
+    font-family: "Sansita Swashed", system-ui;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.sidebar-nav {
+    padding: 15px 7px;
+}
+
+.github-repo
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.github
+{
+    width: 30px;
+    margin-right: 3px;
+    margin-left: 3px;
+    aspect-ratio: 1;
+}
+
+.github-cont li
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

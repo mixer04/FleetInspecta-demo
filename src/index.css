@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 
+    'Ubuntu',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F9F7F7;
+  width: 100vw;
+  height: 100%;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root {
+  --accent-color: rgba(52, 121, 54, 0.8); /* Default accent color */
+  --background-color: #f8f9fa;
+  --text-color: #343a40;
+}
+
+
+.mapboxgl-control-container
+{
+  display: none;
+}
+
+.mapboxgl-canvas
+{
+  width: 100%;
+}
