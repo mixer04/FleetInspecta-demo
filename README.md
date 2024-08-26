@@ -1,6 +1,7 @@
-# FleetWise
+# FleetWise (demo)
 
-Check out live preview: https://fleetwiseapp.netlify.app
+Check out live preview: https://demo-fleetwise.netlify.app
+This is a demo version with already populated tables without Auth.
 
 
 ## 🚀 Introduction
