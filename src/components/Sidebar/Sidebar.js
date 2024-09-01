@@ -27,7 +27,7 @@ export default function Sidebar() {
     <aside className="h-screen inline-flex">
       <nav className="h-full flex flex-col bg-button border-r shadow-sm">
         <div className="pl-5 pr-5 pt-4 pb-1 flex justify-between items-center">
-          <p className={`overflow-hidden transition-all ${expanded ? "w-32" : "w-0"} logo-text`}>FleetWise</p>
+          <p className={`overflow-hidden transition-all ${expanded ? "w-auto" : "w-0"} logo-text`}>FleetInspecta</p>
           <button
             onClick={handleSidebarToggle}
             className="p-1.5 rounded-lg bg-background hover:bg-secondary "
