@@ -1,13 +1,13 @@
-# FleetWise (demo)
+# FleetInspecta (demo)
 
-Check out live preview: https://demo-fleetwise.netlify.app
+Check out live preview: https://demo-fleetinspecta.netlify.app
 <br>
 This is a demo version with already populated tables without Auth.
 
 
 ## 🚀 Introduction
 
-FleetWise is a web application designed to provide real-time transit information, including live driver locations, date and time widgets, and various information about fleet. The application is built using React and leverages various libraries and tools to enhance its functionality and user experience.
+FleetInspecta is a web application designed to provide real-time transit information, including live driver locations, date and time widgets, and various information about fleet. The application is built using React and leverages various libraries and tools to enhance its functionality and user experience.
 
 ## 🎯 Features
 
